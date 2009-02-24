@@ -4,17 +4,11 @@ ruby-hmac
 
 == DESCRIPTION:
   
-<<<<<<< HEAD:README.txt
 This module is a wrapper around Ruby 1.9's digest/hmac library. Use only with Ruby 1.9, use another version if you're still on 1.8. It provides the same API that the gem (used eg. in Oauth), but delegates all functionality to digest/hmac.
 
 This module provides common interface to HMAC functionality. HMAC is a kind of "Message Authentication Code" (MAC) algorithm whose standard is documented in RFC2104. Namely, a MAC provides a way to check the integrity of information transmitted over or stored in an unreliable medium, based on a secret key.
 
 Originally written by Daiki Ueno. Converted to a RubyGem by Geoffrey Grosenbach. Ported to 1.9 by Marius Mathiesen
-=======
-This module provides common interface to HMAC functionality. HMAC is a kind of "Message Authentication Code" (MAC) algorithm whose standard is documented in RFC2104. Namely, a MAC provides a way to check the integrity of information transmitted over or stored in an unreliable medium, based on a secret key.
-
-Originally written by Daiki Ueno. Converted to a RubyGem by Geoffrey Grosenbach
->>>>>>> f1eb2b29813438abe4d501670c4cfcfe2a6ec806:README.txt
 
 == LICENSE:
 
