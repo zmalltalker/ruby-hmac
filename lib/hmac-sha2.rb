@@ -18,7 +18,7 @@ module HMAC
 
   class SHA512 < Base
     def initialize(key = nil)
-      super(Digest::SHA512, 128, 64, key)
+      super(Digest::SHA512, 128, 64, key.to_s)
     end
     public_class_method :new, :digest, :hexdigest
   end
